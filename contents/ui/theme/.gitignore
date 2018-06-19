@@ -1,0 +1,12 @@
+*.swp
+*.swo
+.sass-cache
+.sass-cache/
+.DS_Store
+bower_components
+bower_components/
+node_modules
+node_modules/
+npm-debug.log
+test/
+tests/

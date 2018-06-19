@@ -1,0 +1,19 @@
+{
+  "name": "flashandco",
+  "version": "0.0.0",
+  "authors": [
+    "Alex Luecke <me@alexjl.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "https://flashand.co",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
