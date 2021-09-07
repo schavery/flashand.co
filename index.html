@@ -157,28 +157,10 @@
                     Among Flash &amp; Co.'s clients are a selection of local wineries and vineyards, and we'd like to expand our business in this area.
                   </td>
                   <td class="vtop">
-                    <form role="form" id="MainContactForm">
-                      <div class="form-group">
-                        <!-- label for="input_name">Email address</label -->
-                        <input type="text" class="form-control" id="input_name" placeholder="Name" name="name" />
-                      </div>
-                      <div class="form-group">
-                        <!-- label for="input_email">Email</label -->
-                        <input type="email" class="form-control" id="input_email" placeholder="Email" name="email" />
-                      </div>
-                      <input type="hidden" name="action" value="flashandco_contact_form" />
-                    </form>
-
-                    <script>
-                      $(document).ready(function () {
-                        $("#MainSubmitContactForm").on("click", function (event) {
-                          console.log("submitting...");
-                          $.post("/wp-admin/admin-ajax.php", $("#MainContactForm").serialize(), function () {
-                            $("#MainContactForm").parent().html("<p>Thanks for getting in touch!</p>");
-                          });
-                        });
-                      });
-                    </script>
+                    <div class="call-us-today">
+                      <span class="description">Call Us Today</span>
+                      <span class="phone"><a href="tel:+17079727049">707.972.7049</a></span>
+                    </div>
                   </td>
                 </tr>
                 <tr>
@@ -186,7 +168,7 @@
                   <td class="vertical-line align-right">
                     <div class="button-red"><a href="/clients.html" class="button-link">Our Clients</a></div>
                   </td>
-                  <td class="align-right"><div id="MainSubmitContactForm" class="button-red">Submit +</div></td>
+                  <td class="align-right"></td>
                 </tr>
               </tbody>
             </table>
